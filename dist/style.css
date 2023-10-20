@@ -1317,6 +1317,14 @@ nav #burger:checked~ul {
     height: 80vh;
   }
 
+  .lg\:h-\[40vh\]{
+    height: 40vh;
+  }
+
+  .lg\:h-\[30vh\]{
+    height: 30vh;
+  }
+
   .lg\:w-10{
     width: 2.5rem;
   }
