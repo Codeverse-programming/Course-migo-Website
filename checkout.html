@@ -51,7 +51,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="./learning.html" class="text-2xl md:text-lg font-normal">My
+                    <a href="./learning.html" class="text-2xl md:text-lg">My
                         Learning</a>
                 </li>
                 <a href="./login.html" class="lg:hidden mb-6 block">
@@ -88,19 +88,64 @@
         </nav>
     </header>
 
+    <section class="px-4 pt-24 md:px-20 md:mt-16 mb-6">
+        <h1 class=" font-bold text-2xl lg:text-3xl mb-10 lg:mb-20 lg:mt-0">Checkout</h1>
+        <div class="grid grid-cols-12">
+            <div class="col-span-6">
+                <h1 class=" text-md md:text-2xl mb-3 font-semibold">Billing Address</h1>
+                <form action="">
+                    <h3 class=" mb-3 text-sm lg:text-xl">Country</h3>
+                    <div class="input-control mb-10">
+                        <input type="text" placeholder="Nigeria" class=" py-0 lg:py-4 md:py-2 pl-2 w-full border-2 border-gray-400">
+                    </div>
 
-
-
-    <section class="px-4 pt-24 md:px-10 md:mt-16">
-        <h1 class="text-3xl lg:text-4xl font-bold text-center mb-6">Terms of use</h1>
-        <p class=' mb-6 leading-10 lg:max-w-7xl center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h3 class=" mb-3 text-sm lg:text-xl">Payment Method</h3>
+                    <div class="input-control">
+                        <input type="text" placeholder="Credit/Debit Card"
+                            class=" w-full py-0 lg:py-4 pl-4 border-2 border-gray-400">
+                    </div>
+                </form>
+                <div class="text mt-6">
+                    <h3 class=" md:text-xl mb-6">Order Details</h3>
+                </div>
+                <div class="grid grid-cols-12 gap-3">
+                    <div class=" col-span-4">
+                        <a href="./fundamentals.html">
+                            <img src="./dist/img/product.png" alt="" class="w-fit">
+                        </a>
+                    </div>
+                    <div class=" col-span-8 self-center">
+                        <h3 class="text-xs md:text-[1rem] lg:text-xl xl:text-[1.5rem] font-semibold">
+                            Fundamentals of UX Design</h3>
+                        <div class="button">
+                            <p class=' text-xs font-bold lg:text-2xl'>N10,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-6 summary w-full h-full bg-cover">
+                <div class="overlay"></div>
+                <div class="all px-4">
+                    <h3 class=" font-semibold text-md md:text-2xl mb-3">Summary</h3>
+                    <div class="flex justify-between mb-6 lg:mb-10">
+                        <p class=" text-xs md:text-xl">Original Price</p>
+                        <p class=" text-xs font-bold md:text-xl">N 10,000</p>
+                    </div>
+                    <div class="flex justify-between mb-6">
+                        <p class=" text-xs md:text-xl">Total</p>
+                        <p class=" text-xs font-bold md:text-xl">N 10,000</p>
+                    </div>
+                    <p class=" text-xs md:text-xl mb-6">By completing your purchase, you agree to these terms and service</p>
+                    <a href="./checkout.html" class=" block text-center">
+                        <button class='bg-[#2E2065] w-fit rounded-md py-4 px-4 text-white text-[0.5rem] lg:text-xl font-bold'>
+                            COMPLETE CHECKOUT
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
+
 
     <div class="search">
         <input type="checkbox" name="search" id="search" />
@@ -117,7 +162,6 @@
             </div>
         </div>
     </div>
-
 
     <footer class="px-4 py-10 md:px-10 mt-10 md:mt-16 bg-[#2E2065]">
         <div class="grid grid-cols-12">
@@ -154,7 +198,7 @@
             <div class=" col-span-4">
                 <ul class=" leading-10 md:leading-10">
                     <li>
-                        <a href="./terms.html" class=" text-white active font-bold">Terms</a>
+                        <a href="./terms.html" class=" text-white">Terms</a>
                     </li>
                     <li>
                         <a href="./privacy.html" class=" text-white">Privacy Policy</a>

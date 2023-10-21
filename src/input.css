@@ -35,7 +35,7 @@ nav #burger:checked~ul {
     text-align: center;
 }
 
-.banner{
+.banner {
     background-image: url(../dist/img/banner.png);
 }
 
@@ -76,7 +76,7 @@ nav #burger:checked~ul {
     height: 0;
     left: 0;
     top: 0;
-    background: black;
+    background: white;
     z-index: 99999;
 }
 
@@ -143,6 +143,46 @@ nav #burger:checked~ul {
     left: 2%;
     z-index: 1;
     font-size: 1.5rem;
+}
+
+.active {
+    color: #E82F58;
+    font-weight: bold;
+}
+
+.notlink {
+    font-weight: normal;
+    color: black;
+}
+
+.hidden-section {
+    display: none;
+}
+
+.summary{
+    position: inherit;
+}
+
+.summary .overlay {
+    position: absolute;
+    top: 0em;
+    bottom: 0;
+    opacity: .4;
+    z-index: -1;
+    width: 50%;
+    height: 100%;
+    background: violet;
+}
+
+.input-control input::placeholder{
+    font-size: 0.7rem;
+    color: black;
+}
+
+.input-control input:focus{
+    background-color: rgb(199, 207, 221);
+    border: 2px solid rgb(156 163 175);
+    outline: none;
 }
 
 @media only screen and (max-width: 479px) {
