@@ -22,7 +22,7 @@ body {
 }
 
 input[type="checkbox"] {
-    display: none;
+    /* display: none; */
 }
 
 nav #burger:checked~ul {
@@ -159,7 +159,7 @@ nav #burger:checked~ul {
     display: none;
 }
 
-.summary{
+.summary {
     position: inherit;
 }
 
@@ -174,15 +174,24 @@ nav #burger:checked~ul {
     background: violet;
 }
 
-.input-control input::placeholder{
+.input-control input::placeholder {
     font-size: 0.7rem;
     color: black;
 }
 
-.input-control input:focus{
+.input-control input:focus {
     background-color: rgb(199, 207, 221);
     border: 2px solid rgb(156 163 175);
     outline: none;
+}
+
+.faq1 #show-faq:checked~.comment,
+.faq1 #show-faq1:checked~.comment,
+.faq1 #show-faq2:checked~.comment,
+.faq1 #show-faq3:checked~.comment,
+.faq1 #show-faq4:checked~.comment,
+.faq1 #show-faq5:checked~.comment {
+    max-height: 100vh;
 }
 
 @media only screen and (max-width: 479px) {
