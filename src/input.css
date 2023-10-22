@@ -25,6 +25,10 @@ input[type="checkbox"] {
     /* display: none; */
 }
 
+.profile-active {
+    border-bottom: 3px solid #E82F58;
+}
+
 nav #burger:checked~ul {
     left: 0%;
     transition: all 0.3s ease;
@@ -190,8 +194,53 @@ nav #burger:checked~ul {
 .faq1 #show-faq2:checked~.comment,
 .faq1 #show-faq3:checked~.comment,
 .faq1 #show-faq4:checked~.comment,
-.faq1 #show-faq5:checked~.comment {
+.faq1 #show-faq5:checked~.comment,
+.faq1 #show-faq6:checked~.comment,
+.faq1 #show-faq7:checked~.comment,
+.faq1 #show-faq8:checked~.comment,
+.faq1 #show-faq9:checked~.comment {
     max-height: 100vh;
+}
+
+.user {
+    font-size: 2rem;
+    color: var(--gray);
+    cursor: pointer;
+    position: relative;
+}
+
+.hover a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.hover a:hover {
+    color: white;
+}
+
+.hover a i {
+    padding-inline-end: 5%;
+}
+
+.hover {
+    position: absolute;
+    right: 0%;
+    background-color: white;
+    width: fit-content;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+    opacity: 0;
+    padding: 0.75em;
+}
+
+.user:hover .hover {
+    opacity: 1;
+    height: 20vh;
 }
 
 @media only screen and (max-width: 479px) {
