@@ -254,7 +254,7 @@ nav #burger:checked~ul {
 .item-list {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0rem;
 }
 
 .item-list-info {
