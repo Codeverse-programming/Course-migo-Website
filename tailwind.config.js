@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./*.{html,js}",
-    "node_modules/preline/dist/*.js"
+    "./node_modules/preline/dist/*.js"
 ],
   theme: {
     extend: {
@@ -22,7 +22,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('preline/plugin')
+    require('./preline/plugin')
   ],
 }
 
