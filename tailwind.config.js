@@ -22,7 +22,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('./node_modules/preline/plugin.js')
+    require('preline/plugin')
   ],
 }
 
